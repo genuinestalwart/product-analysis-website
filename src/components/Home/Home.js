@@ -10,7 +10,7 @@ const Home = () => {
     const [reviews] = useReviews();
 
     return (
-        <div className='px-20'>
+        <div>
             <section className='flex justify-around my-4'>
                 <div className='w-2/4'>
                     <h1 className='font-medium leading-normal my-12 text-4xl text-slate-600'>Feeling Hungry?<br />Need Some Snacks?<br />Just <span className='text-indigo-500'>Call Us!</span></h1>
@@ -27,7 +27,7 @@ const Home = () => {
                         reviews.slice(0, 3).map(el => <Review feedback={el}></Review>)
                     }
                 </div>
-                <div className='text-center my-8'>
+                <div className='text-center my-12'>
                     <Link to='/reviews'><button className='bg-indigo-400 hover:bg-indigo-500 px-4 py-2 active:ring ring-blue-400 ring-offset-2 rounded-md text-white'>See all the reviews</button></Link>
                 </div>
             </section>
