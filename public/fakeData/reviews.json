@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Jolanda Rosenberger",
+        "image": "https://randomuser.me/api/portraits/women/24.jpg",
+        "ratings": 5,
+        "feedback": "Ensure the quality - no doubt in that anymore."
+    },
+    {
+        "name": "Alf Risa",
+        "image": "https://randomuser.me/api/portraits/men/71.jpg",
+        "ratings": 5,
+        "feedback": "The delivery boys are nice. Recommended for everyone."
+    },
+    {
+        "name": "Ashley Burton",
+        "image": "https://randomuser.me/api/portraits/women/22.jpg",
+        "ratings": 4.5,
+        "feedback": "I still can't forget the taste of their fried chicken!"
+    },
+    {
+        "name": "Julian Hoffman",
+        "image": "https://randomuser.me/api/portraits/men/42.jpg",
+        "ratings": 4.5,
+        "feedback": "Really good service. I like it."
+    },
+    {
+        "name": "Eemil Hamalainen",
+        "image": "https://randomuser.me/api/portraits/men/29.jpg",
+        "ratings": 4.5,
+        "feedback": "One of the best thing about their service is the low price of the food they serve!"
+    },
+    {
+        "name": "Jana Liebe",
+        "image": "https://randomuser.me/api/portraits/women/76.jpg",
+        "ratings": 4,
+        "feedback": "Pretty well, but I will suggest you to increase your manpower."
+    }
+]

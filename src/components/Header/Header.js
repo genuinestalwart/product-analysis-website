@@ -1,15 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
     return (
-        <header className='h-20 flex items-center justify-center'>
+        <header className='h-16 flex items-center justify-center'>
             <nav className='w-2/5'>
-                <ul className='decoration-2 flex justify-evenly text-lg text-slate-500 underline underline-offset-4'>
-                    <li className='decoration-indigo-400'><Link to='/'>Home</Link></li>
-                    <li className='decoration-indigo-400'><Link to='/reviews'>Reviews</Link></li>
-                    <li className='decoration-indigo-400'><Link to='/dashboard'>Dashboard</Link></li>
-                    <li className='decoration-indigo-400'><Link to='/blogs'>Blogs</Link></li>
+                <ul className='flex justify-evenly text-lg text-slate-500'>
+                    <li><CustomLink to='/'>Home</CustomLink></li>
+                    <li><CustomLink to='/reviews'>Reviews</CustomLink></li>
+                    <li><CustomLink to='/dashboard'>Dashboard</CustomLink></li>
+                    <li><CustomLink to='/blogs'>Blogs</CustomLink></li>
                 </ul>
             </nav>
         </header>
